@@ -20,3 +20,7 @@ elif seconds >= 60:
     print(str(int(minutes)) + ' full minutes(s) and '+ str(int(sec)) + ' seconds.')
 else:
     print(str(int(seconds)) + ' seconds.')
+
+#branch Hyebin에서 수정함
+#tobigs fighthing:)
+    
