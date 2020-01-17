@@ -5,10 +5,11 @@ sec2 = seconds % (60*60)
 sec3 = seconds % (60*60*60)
 hours = minutes / 60
 days = hours / 24
-              
+
+
 if seconds >= 86400 :
-    print(str(int(seconds)) + ' seconds are equal to:')
-    print(str(int(minutes)) + ' full minutes(s) and '+ str(int(sec)) + ' seconds.')
+    print('{} seconds are equal to:'.format(seconds))
+    print('{} full minutes(s) and {} seconds.'.format(minutes, sec))
     print(str(int(hours)) + ' full hours(s) and ' + str(int(sec2)) + ' seconds.')
     print(str(int(days)) + ' full days(s) and ' + str(int(sec3)) + ' seconds.')
 elif seconds >= 3600:
